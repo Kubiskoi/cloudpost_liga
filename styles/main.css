@@ -1,0 +1,75 @@
+html { 
+  background: url("../imgs/back.jpg") no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+img{
+	width: 200px;
+  padding: 20px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+table{
+  margin-top: 10px;
+  margin-left: 10px;
+}
+
+td{
+  padding: 0 10px;
+}
+
+th{
+  text-align: left;
+  padding-bottom: 10px;
+}
+
+
+
+
+#cont{
+	width: 50%;
+	max-height: 93vh;
+	background: rgba(0,0,0,0.55);
+	border: 7px solid black;
+    border-radius: 15px;
+    overflow: scroll;
+    float: right;
+    color:#B38868;
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+
+footer {
+    position: absolute;
+    left: 0;
+    bottom: -5px;
+    height: 20px;
+    width: 100%;
+    background: rgba(0,0,0,0.5);
+    font-size: 12px;
+    text-align: center;
+    margin-top: 5x;
+}
+
+footer a{
+  text-decoration: none;
+  color: black;
+}
+
+.admin{
+  float: right;
+  color: grey;
+}
