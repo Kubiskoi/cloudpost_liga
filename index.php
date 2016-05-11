@@ -1,12 +1,13 @@
-<?php 
+<!-- <?php 
 	header('Content-Type: text/html; charset=UTF-8');
-?>
+?> -->
 <!DOCTYPE html>
 <html>
 <?php 
 	include "scripts/myphp.php";
  ?>
 <head>
+	<meta charset="UTF-8">
 	<title>Cloudpost Liga</title>
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
 </head>
