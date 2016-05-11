@@ -7,8 +7,18 @@
 	<meta charset="UTF-8">
 	<title>Cloudpost Liga</title>
 	<link rel="stylesheet" type="text/css" href="styles/main.css">
+
+	<script type="text/javascript">
+		function myFunction(){
+			setTimeout(function(){ 
+				var divs = document.getElementsByTagName('div');
+				divs[1].style = "display:none";
+			 }, 1000);
+		}
+	</script>
+
 </head>
-<body>
+<body onload="myFunction()">
 	<img src="imgs/logo.png">
 	<div id="cont">
 		<table>
