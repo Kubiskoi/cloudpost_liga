@@ -3,10 +3,17 @@ $meno = "Patrik";
 $heslo = "rybyakone";
 
 if($meno == $_POST["meno"] && $heslo == $_POST["heslo"]){
-	//redirect pouzit
-	echo "si lognuty";
+	session_start();
+	$_SESSION['name']="Patrik";
+	header("Location: ../upload_form.php"); 
+	exit();
 }else{
 	header("Location: ../wrong.html"); 
 	exit();
 }
+
+
+
+
+
 ?>
