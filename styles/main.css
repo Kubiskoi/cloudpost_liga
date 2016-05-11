@@ -42,27 +42,27 @@ th{
 	max-height: 93vh;
 	background: rgba(0,0,0,0.55);
 	border: 7px solid black;
-    border-radius: 15px;
-    overflow: scroll;
-    float: right;
-    color:#B38868;
-    margin-top: 10px;
-    margin-right: 10px;
+  border-radius: 15px;
+  overflow: scroll;
+  float: right;
+  color:#B38868;
+  margin-top: 10px;
+  margin-right: 10px;
 
 }
 
 
 footer {
-    position: absolute;
-    left: 0;
-    bottom: -5px;
-    height: 20px;
-    width: 100%;
-    background: rgba(0,0,0,0.5);
-    font-size: 12px;
-    text-align: center;
-    margin-top: 5x;
-    z-index: 1000;
+  position: absolute;
+  left: 0;
+  bottom: -5px;
+  height: 20px;
+  width: 100%;
+  background: rgba(0,0,0,0.5);
+  font-size: 12px;
+  text-align: center;
+  margin-top: 5x;
+  z-index: 1000;
 }
 
 footer a{
@@ -72,5 +72,5 @@ footer a{
 
 .admin{
   float: right;
-  color: grey;
+  color: #808080;
 }
