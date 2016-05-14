@@ -8,23 +8,53 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<meta charset="utf-8">
 	<title>Upload Form</title>
+	<link rel="stylesheet" type="text/css" href="styles/bootstrap.min.css">
+	<style type="text/css">
+		.my_marg{
+			margin-top: 100px;
+		}
+	</style>
 </head>
 <body>
 
-<form action="scripts/save_file.php" method="post" enctype="multipart/form-data">
-    <label>Select *.csv file to upload:</label>
-    <input type="file" accept=".csv" name="fileToUpload" id="fileToUpload" >
-    <input type="submit" value="Upload File" name="submit">
-</form>
+	<div class="row my_marg">
+		<div class="col-md-4"></div>
+		<div class="col-md-4">
+			<form action="scripts/save_file.php" method="post" enctype="multipart/form-data" class="form-horizontal">
 
-<br>
-<br>
-<br>
+				<div class="form-group">
+				    <label class="col-sm-4 control-label">File input:</label>
+				    <div class="col-sm-8">
+				    	<input type="file" accept=".csv" name="fileToUpload" id="fileToUpload">
+				    	<p class="help-block">Select *.csv file.</p>
+				    </div>
+				</div>
 
-<form method="get" action="magic_ex.zip">
-<label>Download chrome extension:</label>
-<button type="submit">Download!</button>
-</form>
+				<div class="form-group">
+			   	<div class="col-sm-offset-2 col-sm-10">
+			 			 <button type="submit" class="btn btn-default">Upload</button>
+			 		</div>
+				</div>
+
+			    
+
+			</form>
+		</div>
+		<div class="col-md-4"></div>
+	</div>
+	
+	<div class="row my_marg">
+		<div class="col-md-4"></div>
+		<div class="col-md-4">
+			<form method="get" action="magic_ex.zip">
+				<label>Download chrome extension:</label>
+				<button class="btn btn-success" type="submit">Download!</button>
+			</form>
+		</div>
+		<div class="col-md-4"></div>
+	</div>
+
 </body>
 </html>
